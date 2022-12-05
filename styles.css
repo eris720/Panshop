@@ -1,0 +1,125 @@
+body {
+  background: #8b8a89;
+}
+.navbar {
+  background: black;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #f5eddc;
+}
+.nav-elements {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.nav-link {
+  color: #fff;
+}
+.pan {
+  font-weight: bolder;
+}
+.navbar-brand:hover {
+  color: #f5eddc;
+}
+.intro {
+  background-color: #cfd2cf;
+  box-shadow: 0 0 0 1.5rem;
+  border-radius: 1rem;
+  padding-top: 12rem;
+  padding-bottom: 7rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  width: 80%;
+}
+.sad-colors {
+  background-color: #cfd2cf;
+  width: 90%;
+}
+h1,
+h2,
+p {
+  font-family: "Montserrat", sans-serif;
+}
+.card-text {
+  line-height: 2;
+}
+.card-body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+.products {
+  background: #cfd2cf;
+}
+.rainbow {
+  border: 5px solid transparent;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
+}
+.search-button {
+  background-color: #fff;
+}
+.nav-link:hover {
+  color: #8b8a89;
+}
+.search-button:hover {
+  animation: rainbow 2.5s linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rainbow {
+  100%,
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  8% {
+    color: rgb(255, 127, 0);
+  }
+  16% {
+    color: rgb(255, 255, 0);
+  }
+  25% {
+    color: rgb(127, 255, 0);
+  }
+  33% {
+    color: rgb(0, 255, 0);
+  }
+  41% {
+    color: rgb(0, 255, 127);
+  }
+  50% {
+    color: rgb(0, 255, 255);
+  }
+  58% {
+    color: rgb(0, 127, 255);
+  }
+  66% {
+    color: rgb(0, 0, 255);
+  }
+  75% {
+    color: rgb(127, 0, 255);
+  }
+  83% {
+    color: rgb(255, 0, 255);
+  }
+  91% {
+    color: rgb(255, 0, 127);
+  }
+}
+.subscription {
+  background-color: #cfd2cf;
+  width: 90%;
+  margin-top: 4rem;
+}
+.card-deck {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 0.5rem;
+}
