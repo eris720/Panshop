@@ -127,4 +127,7 @@ p {
 @media (max-width: 440px) {
   .card-deck {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    footer {
+    padding-bottom: 1.5rem;
+  }
   }
