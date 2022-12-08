@@ -132,4 +132,9 @@ p {
     .card-body {
     font-size: 1rem;
   }
+     .intro {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-inline: 2rem;
+  }
   }
